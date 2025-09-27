@@ -1,4 +1,4 @@
-# Backend Setup
+# Frontend Setup
 
 This is the frontend application. Follow the steps below to run it locally.
 
@@ -13,19 +13,7 @@ This is the frontend application. Follow the steps below to run it locally.
 2. Run yarn install
 3. Create a .env file and set the environment variables:
 
-PORT=3001
+NEXT_PUBLIC_API_URL=http://localhost:3001/api
 
-DATABASE_URL=prisma+postgres://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RfaWQiOjEsInNlY3VyZV9rZXkiOiJza19oOXVYZG50OFpabmJWOVBnTFVQc00iLCJhcGlfa2V5IjoiMDFLNjY4SDVONENBUVZZVDNWUFZCTk1IS0IiLCJ0ZW5hbnRfaWQiOiJmOWY2YzkyZjc5OWQ0MTI0NmQ4NGE2ZTZiOWM2YmU3M2Q3ZmZjNDE3ZDliNjQ1MThiM2JhYjA2ZTk5ZTI4MzFjIiwiaW50ZXJuYWxfc2VjcmV0IjoiMzYzZGFlNjUtZjI0Mi00OWIzLWFkNjktYzI2NDAxM2RiMTE4In0.PY2ezhW5ZtMOcVXnMOF9fdK6DfbzFue63wnHAm8OQQI
-
-API_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RfaWQiOjEsInNlY3VyZV9rZXkiOiJza19oOXVYZG50OFpabmJWOVBnTFVQc00iLCJhcGlfa2V5IjoiMDFLNjY4SDVONENBUVZZVDNWUFZCTk1IS0IiLCJ0ZW5hbnRfaWQiOiJmOWY2YzkyZjc5OWQ0MTI0NmQ4NGE2ZTZiOWM2YmU3M2Q3ZmZjNDE3ZDliNjQ1MThiM2JhYjA2ZTk5ZTI4MzFjIiwiaW50ZXJuYWxfc2VjcmV0IjoiMzYzZGFlNjUtZjI0Mi00OWIzLWFkNjktYzI2NDAxM2RiMTE4In0.PY2ezhW5ZtMOcVXnMOF9fdK6DfbzFue63wnHAm8OQQI
-
-SYNCLABS_API_KEY=sk-d7SGwlotSIWGZaPJ6Y0suw.3JHBkf_-qZmgvNeyWM1M3qbHIFze9teB
-
-SYNCLABS_API_URL=https://api.sync.so
-
-APP_URL=http://localhost:3001
-
-WEBHOOK_SIGNING_SECRET=whsec_923a24368fd3dab8a422643abff950716f52be69e7045de856406d3173183319
-
-4. Run yarn dev
-5. Open your browser and go to http://localhost:3000
+5. Run yarn dev
+6. Open your browser and go to http://localhost:3000
