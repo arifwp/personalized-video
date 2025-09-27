@@ -7,7 +7,7 @@ This is the frontend application. Follow the steps below to run it locally.
 - Node.js (v18+ recommended)
 - Yarn package manager
 
-## Setup
+## Setup & Run Instructions
 
 1. Clone the repository:
 2. Run yarn install
